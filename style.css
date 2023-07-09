@@ -4,10 +4,11 @@
     padding: 0;
     outline: 0;
     font-family: 'Space Grotesk', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* common styles */
-nav, .banner-content, #about {
+nav, .banner-content, #about, #services {
     width: 80%;
     margin: 0 auto;
 }
@@ -42,6 +43,9 @@ p {
 .btn-secondary {
     background-color: #1E1E1E;
     color: white;
+}
+.about-content, .service-content {
+    padding-top: 80px;
 }
 
 /* header styles */
@@ -99,9 +103,6 @@ nav {
 }
 
 /* about section styles */
-.about-content {
-    padding: 80px 0;
-}
 .about-content-container {
     display: flex;
     align-items: center;
@@ -109,4 +110,23 @@ nav {
 }
 .about-img img {
     width: 65%;
+}
+
+/* services section styles */
+.service-container {
+    display: flex;
+    gap: 20px;
+}
+.service {
+    background-color: #6a6a6ade;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+}
+.service-icon {
+    text-align: center;
+}
+.service-icon img {
+    width: 65px;
 }
