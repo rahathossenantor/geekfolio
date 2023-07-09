@@ -7,12 +7,19 @@
 }
 
 /* common styles */
-nav {
+nav, .banner-content {
     width: 80%;
     margin: 0 auto;
 }
 p {
     font-size: 18px;
+}
+.btn {
+    padding: 10px 15px;
+    border: 0;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 5px;
 }
 
 /* header styles */
@@ -39,4 +46,37 @@ nav {
     color: white;
     text-decoration: none;
     font-size: 19px;
+}
+
+/* banner styles */
+#banner {
+    background: url("./images/background.png") #1E1E1E;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 150px 0;
+}
+.banner-content {
+    display: flex;
+    align-items: center;
+}
+.banner-text, .banner-image {
+    width: 50%;
+}
+.banner-image {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.banner-image img {
+    width: 75%;
+}
+.banner-text h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+.banner-text p {
+    font-size: 21px !important;
+    margin-bottom: 15px;
+    line-height: 25px;
 }
