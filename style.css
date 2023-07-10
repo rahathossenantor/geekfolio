@@ -8,7 +8,7 @@
 }
 
 /* common styles */
-nav, .banner-content, #about, #services {
+nav, .banner-content, #about, #services, .footer-content {
     width: 80%;
     margin: 0 auto;
 }
@@ -34,7 +34,7 @@ p {
 }
 .box-title {
     font-size: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .box-description {
     margin-bottom: 15px;
@@ -129,4 +129,54 @@ nav {
 }
 .service-icon img {
     width: 65px;
+}
+
+/* footer styles */
+footer {
+    background: url("./images/background.png") #1E1E1E;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-top: 80px;
+}
+.contact-info-container {
+    padding: 100px 0;
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid white;
+}
+.info h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.info h6 {
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+.info li {
+    list-style: none;
+    padding: 3px 0;
+}
+.info li a {
+    color: white;
+    text-decoration: none;
+}
+.about-company {
+    width: 35%;
+}
+.about-company img {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.useful-links, .supports {
+    width: 20%;
+}
+.contact-information {
+    width: 25%;
+}
+.copyright {
+    font-size: 18px;
+    padding: 1rem 0;
+    text-align: center;
 }
